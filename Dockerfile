@@ -4,7 +4,7 @@ WORKDIR /opt/sh
 
 ENV SKYWALKING_HOME /opt/sh/skywalking
 
-ARG version=9.0.0
+ARG version=9.1.0
 
 RUN wget https://downloads.apache.org/skywalking/$version/apache-skywalking-apm-$version.tar.gz && \
 mkdir skywalking && \
